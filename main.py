@@ -1,10 +1,10 @@
 def main():
   intro()
   try:
-    print('To Start')
-    miles= int(input ("Enter The Number Of Miles Driven:  "))
+    print('To Begin')
+    m= int(input ("Enter The Number Of Miles Driven:  "))
     print()
-    miles_to_kilometers(miles)
+    miles_to_kilometers(m)
     print()
   except(ValueError):
     print("      Opps!! Try Again By Entering Only Numbers")
